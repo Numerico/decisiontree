@@ -3,8 +3,6 @@
 ### Copyright (c) 2007 Ilya Grigorik <ilya AT igvita DOT com>
 ### Modifed at 2007 by José Ignacio Fernández <joseignacio.fernandez AT gmail DOT com>
 
-require 'graphr'
-
 class Object
   def save_to_file(filename)
     File.open(filename, 'w+' ) { |f| f << Marshal.dump(self) }
