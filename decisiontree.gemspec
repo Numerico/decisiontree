@@ -2,8 +2,8 @@
 $:.push File.expand_path("../lib", __FILE__)
 
 Gem::Specification.new do |s|
-  s.name        = "decisiontree"
-  s.version     = "0.4.0"
+  s.name        = "decisiontree_n"
+  s.version     = "0.4.1"
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Ilya Grigorik"]
   s.email       = ["ilya@igvita.com"]
