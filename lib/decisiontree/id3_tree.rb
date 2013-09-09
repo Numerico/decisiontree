@@ -131,6 +131,7 @@ module DecisionTree
     end
 
     def graph(filename)
+      require 'graphr'
       dgp = DotGraphPrinter.new(build_tree)
       dgp.write_to_file("#{filename}.png", "png")
     end
